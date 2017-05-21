@@ -73,3 +73,11 @@ Eg- cocoa view, offscreen memory, pixel buffer
 
 Virtual Screen - Renderer + Physical Display . Virtual screen - hardware renderer + physical display or software renderer + physical display
 
+Getting Started with OpenGL on Xcode:
+
+1. Open Xcode
+2. Click on Create a new xcode project
+3. Choose macOS - and start a new command line tool application
+4. Choose c++ as the language 
+5. In the project folder - navigate to build phases and click on link binaries an dlibraries and add OpenGL.framework and GLUT.framework
+
